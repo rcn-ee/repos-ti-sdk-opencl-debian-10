@@ -1,0 +1,5 @@
+ti-ipc-dra7xx (3.50.04.08-git20191028.0-0rcnee0~buster+20200324) buster; urgency=low
+
+  * Rebuild for repos.rcn-ee.com
+
+ -- Robert Nelson <robertcnelson@gmail.com>  Tue, 24 Mar 2020 15:33:47 -0500
