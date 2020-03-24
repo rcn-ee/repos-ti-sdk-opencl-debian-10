@@ -1,0 +1,30 @@
+libloki for Debian
+==================
+
+Loki is the library which evolved from the code accompanying the (truly
+excellent) book "Modern C++ Design: Generic Programming and Design Patterns
+Applied" by Andrei Alexandrescu. On the book's homepage[0], you may find two
+sample chapters, additional information (errata, etc.), as well as a link to
+a (non-free) online version.
+
+0. http://erdani.org/book/
+
+If I may inject at this point: buy the book! It's one of the best acquisitions
+for the serious C++ programmer and probably the best C++ book I've ever held
+in my hands.
+
+Using Loki on Debian
+--------------------
+
+First off, all header files have been moved from /usr/include to
+/usr/include/loki, which means that you should include the directory in the
+include directive. E.g.:
+
+  #include <loki/TypeTraits.h>
+
+Note that you have to tell the linker about the library *after* all
+object files have been specified:
+
+  ld -o myproj src.o -lloki
+
+ -- martin f. krafft <madduck@debian.org>  Sat, 14 May 2005 17:00:37 +0200

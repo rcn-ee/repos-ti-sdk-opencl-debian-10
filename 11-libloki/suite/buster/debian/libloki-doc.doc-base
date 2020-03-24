@@ -1,0 +1,11 @@
+Document: libloki-doc
+Title: Loki C++ Library Documentation
+Author: Loki Developers
+Abstract: This documentation is automatically generated
+ from the libloki source code by doxygen, and describes
+ the classes of the Loki C++ library in detail.
+Section: Programming
+
+Format: HTML
+Index: /usr/share/doc/libloki-doc/html/index.html
+Files: /usr/share/doc/libloki-doc/html/*.html

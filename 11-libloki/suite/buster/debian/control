@@ -1,0 +1,62 @@
+Source: libloki
+Section: libs
+Priority: optional
+Maintainer: Petr Baranov <petr@baranov.fi>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: http://loki-lib.sourceforge.net/
+
+Package: libloki0.1.7
+Architecture: any
+Depends: ${shlibs:Depends},${misc:Depends}
+Description: C++ library of generic design patterns
+ Loki is a ("the"?) C++ library of generic programming techniques, containing
+ flexible implementations of common design patterns and idioms. It is an
+ essential library for modern C++ programming and exposes many cool features
+ of the language.
+ .
+ The code accompanies the (non-free) book, _Modern C++ Design_ (Alexandrescu,
+ 2001), which goes into depth on the design of the library.
+
+Package: libloki0.1.7-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: libloki0.1.7 (= ${binary:Version}),${misc:Depends}
+Description: C++ library of generic design patterns (debug information)
+ Loki is a ("the"?) C++ library of generic programming techniques, containing
+ flexible implementations of common design patterns and idioms. It is an
+ essential library for modern C++ programming and exposes many cool features
+ of the language.
+ .
+ This package contains debugging symbols useful for tracing bugs in the
+ libloki package.
+
+Package: libloki-dev
+Section: libdevel
+Architecture: any
+Depends: libloki0.1.7 (= ${binary:Version}),${misc:Depends}
+Suggests: libloki-doc
+Description: C++ library of generic design patterns (development files)
+ Loki is a ("the"?) C++ library of generic programming techniques, containing
+ flexible implementations of common design patterns and idioms. It is an
+ essential library for modern C++ programming and exposes many cool features
+ of the language.
+ .
+ The code accompanies the (non-free) book, _Modern C++ Design_ (Alexandrescu,
+ 2001), which goes into depth on the design of the library.
+ .
+ This package contains the header files and static libraries needed
+ to build programs that use loki.
+
+Package: libloki-doc
+Section: doc
+Architecture: all
+Depends: ${misc:Depends}
+Description: C++ library of generic design patterns (documentation)
+ Loki is a ("the"?) C++ library of generic programming techniques, containing
+ flexible implementations of common design patterns and idioms. It is an
+ essential library for modern C++ programming and exposes many cool features
+ of the language.
+ .
+ This package contains the generated doxygen documentation for loki.

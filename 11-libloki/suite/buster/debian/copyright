@@ -1,0 +1,147 @@
+This package was debianized by martin f. krafft <madduck@debian.org> on
+Sat, 14 May 2005 16:46:57 +0200
+
+This package was cleaned up by Lukas Fittl <lfittl@fsfe.org> on
+Mon, 11 Sep 2006 23:36:20 +0200
+
+It was downloaded from http://sourceforge.net/projects/loki-lib/
+
+Upstream Authors: Loki Developers
+
+Copyright:
+
+    Copyright (©) 2000-2005 Andrei Alexandrescu
+     - 2000
+      - ScopeGuard
+      - AbstractFactory
+      - LokiTypeInfo
+      - SmartPtr
+      - Functor
+     - 2001
+      - Initial code (from the book "Modern C++ Design")
+      - Functor
+      - MultiMethods
+      - TypelistMacros
+      - SmallObj
+      - Singleton
+      - HierarchyGenerators
+      - LockingPtr
+      - AssocVector
+      - TypeManip
+      - Factory
+      - static_check
+      - Tuple.h
+      - Visitor.h
+      - NullType.h
+      - Threads.h
+      - flex
+      - yasli
+     - 2005
+      - SafeFormat
+
+    Copyright (©) 2000 Petru Marginean
+     - 2000
+      - ScopeGuard
+
+    Copyright (©) 2004 Curtis Krauskopf
+     - 2004
+      - Singleton
+
+    Copyright (©) 2005 Joshua Lehrer
+     - 2005
+      - ScopeGuard
+
+    Copyright (©) 2005-2006 Peter Kümmel
+     - 2005
+      - OrderedStatic
+      - Factory
+      - Function
+      - Sequence
+     - 2006
+      - SafeFormat
+      - ConstPolicy
+      - LokiExport
+      - Pimpl
+      - RefToValue
+      - Register
+
+    Copyright (©) 2006-2009 Richard Sposato
+     - 2006
+      - StrongPtr
+      - SmartPtr
+      - ConstPolicy
+      - RefToValue
+     - 2007
+      - CheckReturn
+     - 2008
+      - LevelMutex
+      - Checker
+      - Allocator
+     - 2009
+      - SafeBits
+
+    Copyright (©) 2001-2005 Addison-Wesley
+     - 2001
+      - Singleton
+      - SmartPtr
+      - SmallObj
+      - EmptyType
+      - TypeTraits
+      - Key
+      - LokiTypeInfo
+      - AbstractFactory
+      - MultiMethods
+      - TypelistMacros
+      - LokiTypeInfo
+      - SPCachedFactory
+      - HierarchyGenerators
+      - AssocVector
+      - CachedFactory
+      - TypeManip
+      - Factory
+      - DataGenerators
+      - static_check
+      - Tuple.h
+      - Visitor.h
+      - NullType.h
+      - Threads.h
+     - 2005
+      - Functor
+
+    Copyright (©) 2005 Joshua Lehrer
+     - 2005
+      - ScopeGuard
+
+    Copyright (©) 2006 Guillaume Chatelet
+     - 2006
+      - Key
+      - SPCachedFactory
+      - CachedFactory
+
+    Copyright (©) 2009 Fedor Pikus
+     - 2006
+      - SafeBits
+
+Licence:
+
+    Loki is licensed under the terms of the MIT license reproduced below. This
+    means that Loki is free software and can be used for both academic and
+    commercial purposes at absolutely no cost.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
