@@ -1,0 +1,5 @@
+ti-tidl (01.04.00-bb.org-0.0-0rcnee1~buster+20200324) buster; urgency=low
+
+  * Rebuild for repos.rcn-ee.com
+
+ -- Robert Nelson <robertcnelson@gmail.com>  Tue, 24 Mar 2020 16:08:28 -0500
