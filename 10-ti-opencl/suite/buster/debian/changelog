@@ -1,3 +1,9 @@
+ti-opencl (01.02.00.02-git20191223.5-0rcnee2~buster+20200325) buster; urgency=low
+
+  * Rebuild for repos.rcn-ee.com
+
+ -- Robert Nelson <robertcnelson@gmail.com>  Wed, 25 Mar 2020 10:52:15 -0500
+
 ti-opencl (01.02.00.02-git20191223.5-0rcnee1~buster+20200324) buster; urgency=low
 
   * Rebuild for repos.rcn-ee.com
